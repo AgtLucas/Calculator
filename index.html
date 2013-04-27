@@ -6,6 +6,34 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
+	<div class="main">
+		<div class="left-panel">
+			<h2>Enter Loan Data:</h2>
+			<p>
+				<label for="amount">Amount of the loan ($)</label>
+				<input type="text" name="amount" id="amount" onchange="calculate();">
+			</p>
+			<p>
+				<label for="apr">Anual interest (%)</label>
+				<input type="text" name="apr" id="apr" onchange="calculate();">
+			</p>
+			<p>
+				<label for="years">Repayment period (years)</label>
+				<input type="text" name="years" id="years" onchange="calculate();">
+			</p>
+			<p>
+				<label for="zipcode">Zipcode (to find lenders)</label>
+				<input type="text" name="zipcode" id="zipcode" onchange="calculate();">
+			</p>
+			<p>
+				Approximate Payments:
+				<button onclick="calculate();">Calculate</button>
+			</p>
+		</div>
+
+		<div class="right-panel">
+			
+		</div>
+	</div>
 </body>
 </html>
