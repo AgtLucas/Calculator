@@ -1,0 +1,39 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+body {
+	background-color: #f6f6f6;
+	font-size: 16px;
+}
+.main {
+	width: 60em;
+	margin: 40px auto;
+}
+.left-panel {
+	float: left;
+	width: 40%;
+}
+.right-panel {
+	float: right;
+	width: 55%;
+}
+.graph {
+	border: 1px solid black;
+	width: 100%;
+}
+.output {
+	font-weight: bold;
+}
+.payment {
+	text-decoration: underline;
+}
